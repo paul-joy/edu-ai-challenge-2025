@@ -1,0 +1,8 @@
+Analyze a given set of project requirements to select a database for a new application:
+- Social platform with millions of users;
+- Need to store profiles, posts, and connections between users;
+- High data read speed required;
+- Expected 80% read operations, 20% write operations;
+- Scalability is important as the user base grows.
+
+Select and justify the most suitable type of database for the project. Use Chain-of-Thought (CoT) reasoning (should be step-by-step and well-structured) by mimicking how humans often solve complex problems. Show how the decision was made based on the requirements.
