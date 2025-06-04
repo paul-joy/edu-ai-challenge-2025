@@ -1,0 +1,18 @@
+{
+  "summary": "The document discusses the rise of remote work, especially following the global pandemic. It outlines several benefits, including improved employee satisfaction, cost savings for companies, and enhanced work-life balance. It also highlights challenges such as employee isolation, reduced productivity, and management difficulties. The document concludes that remote work is likely to persist, with hybrid work models and advancing technology facilitating this transition.",
+  "sentiment": "neutral",
+  "sentiment_score": 0,
+  "metadata": {
+    "document_title": "task_3_input.docx",
+    "topics": [
+      "remote work",
+      "telecommuting",
+      "pandemic impact",
+      "employee satisfaction",
+      "hybrid work",
+      "technology in work"
+    ],
+    "tone": "informative, balanced",
+    "length_words": 222
+  }
+}

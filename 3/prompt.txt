@@ -1,0 +1,6 @@
+You are given the task_3_input.docx document. You need to perform the following:
+1. Generate a concise summary of the input text.
+2. Analyze the sentiment and classify it as positive, neutral, or negative.
+3. Provide a sentiment score (e.g., -1 for very negative, 0 for neutral, +1 for very positive).
+
+Return the results in a structured JSON format, including all of the above and any relevant metadata you deem useful.
