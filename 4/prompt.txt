@@ -1,0 +1,10 @@
+Take the @processUserData.js code snippet as input.
+
+Analyze it from each of the three specified expert perspectives:
+1. Developer, 
+2. Security Engineer, 
+3. Performance Specialist.
+
+For each perspective, provide specific, actionable recommendations and observations to improve the code.
+
+Place the result that you got in @result.md 
