@@ -1,0 +1,10 @@
+{
+  "sentiment": "string (Positive|Negative|Neutral|Mixed)",
+  "isRelevant": "boolean",
+  "mainSubject": "string or null",
+  "positives": ["array of strings"],
+  "painPoints": ["array of strings"],
+  "improvementSuggestions": ["array of strings"],
+  "featuresMentioned": ["array of strings"],
+  "userExpertise": "string (Experienced|Novice|Unknown)"
+}

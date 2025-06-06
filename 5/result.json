@@ -1,0 +1,38 @@
+[
+  {
+    "sentiment": "Negative",
+    "isRelevant": true,
+    "mainSubject": "Sensor reliability and connectivity issues",
+    "positives": [],
+    "painPoints": [
+      "Sensor stops tracking for half a second frequently even at 8000hz",
+      "Issue persists in wired mode",
+      "Previous unit had non-functional dongle",
+      "Poor reliability for a $150 mouse"
+    ],
+    "improvementSuggestions": [
+      "Improve sensor tracking reliability",
+      "Better quality control for dongles"
+    ],
+    "featuresMentioned": [
+      "Sensor tracking",
+      "Polling rate (8000hz)",
+      "Wireless/dongle connectivity",
+      "Wired connection"
+    ],
+    "userExpertise": "Experienced"
+  },
+  {
+    "sentiment": "Mixed",
+    "isRelevant": true,
+    "mainSubject": "Price-to-performance value",
+    "positives": ["Product has no flaws"],
+    "painPoints": [
+      "Poor value proposition relative to price",
+      "Comparable performance available from cheaper alternatives"
+    ],
+    "improvementSuggestions": ["Lower price to match performance value"],
+    "featuresMentioned": ["General specifications"],
+    "userExpertise": "Unknown"
+  }
+]

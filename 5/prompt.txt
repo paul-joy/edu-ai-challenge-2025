@@ -1,0 +1,8 @@
+Your task is to analyze the two feedbacks using the following techniques and structure:
+1. Few-Shot Prompting: Incorporate the provided examples in @example_data.txt to understand the expected format and reasoning.
+2. Chain-of-Thought Reasoning: analyze the feedback only if it is relevant to the product. If not, set isRelevant to false and skip further analysis.
+3. JSON Output Format: Ensure the response adheres to the following structure @output_structure.json 
+
+Feedbacks to analyze:
+Sample 1: "Sensor just stops tracking for like a half second kinda often even at 8000hz. I've also tried it plugged in and still the same problem. First one I got I had to return also because the dongle just didnt work, $150 mouse btw"
+Sample 2: "Is it worth it? It is a product with no flaws in my opinion, if you love it go for it, but its not worth the price since you'll be able to perform the same with a cheaper product with half the specs."
