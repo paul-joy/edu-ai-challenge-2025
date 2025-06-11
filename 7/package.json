@@ -1,0 +1,54 @@
+{
+  "name": "sea-battle-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A modern CLI implementation of the classic Sea Battle (Battleship) game",
+  "main": "seabattle.js",
+  "scripts": {
+    "start": "node seabattle.js",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "battleship",
+    "seabattle",
+    "cli",
+    "game",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0"
+  },
+  "vitest": {
+    "coverage": {
+      "provider": "v8",
+      "include": [
+        "seabattle.js"
+      ],
+      "exclude": [
+        "**/node_modules/**",
+        "**/*.test.js"
+      ],
+      "reporter": [
+        "text",
+        "text-summary",
+        "html"
+      ],
+      "thresholds": {
+        "global": {
+          "branches": 60,
+          "functions": 60,
+          "lines": 60,
+          "statements": 60
+        }
+      }
+    }
+  }
+}
