@@ -1,4 +1,5 @@
 import readline from "readline";
+import { pathToFileURL } from "url";
 
 /**
  * Represents a ship in the game
@@ -529,7 +530,7 @@ class SeaBattleGame {
 export { Ship, Board, CPUPlayer, GameDisplay, SeaBattleGame };
 
 // Start the game only when run directly (not when imported for testing)
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const game = new SeaBattleGame();
   game.startGame().catch(console.error);
 }
