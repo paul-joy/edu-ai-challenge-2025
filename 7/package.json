@@ -5,7 +5,8 @@
   "description": "A modern CLI implementation of the classic Sea Battle (Battleship) game",
   "main": "seabattle.js",
   "scripts": {
-    "start": "node seabattle.js",
+    "start": "node seabattle.js --play",
+    "help": "node seabattle.js --help",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest"

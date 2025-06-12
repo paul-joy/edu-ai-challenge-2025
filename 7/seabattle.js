@@ -1,5 +1,4 @@
 import readline from "readline";
-import { pathToFileURL } from "url";
 
 /**
  * Represents a ship in the game
@@ -529,8 +528,24 @@ class SeaBattleGame {
 // Export classes for testing
 export { Ship, Board, CPUPlayer, GameDisplay, SeaBattleGame };
 
-// Start the game only when run directly (not when imported for testing)
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+// Handle command line arguments
+if (process.argv.includes("--help") || process.argv.includes("-h")) {
+  console.log(`
+Sea Battle Game
+
+Usage:
+  node seabattle.js --play    Start the game
+  node seabattle.js --help    Show this help message
+
+The game can also be imported as a module for testing:
+  import { SeaBattleGame } from './seabattle.js'
+`);
+} else if (process.argv.includes("--play")) {
   const game = new SeaBattleGame();
   game.startGame().catch(console.error);
+} else if (process.argv.length === 2) {
+  // No arguments provided
+  console.log(
+    "Sea Battle Game - Use --play to start or --help for usage information"
+  );
 }
